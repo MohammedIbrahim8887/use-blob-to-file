@@ -1,0 +1,10 @@
+
+# Build files
+/src
+
+# Node Modules
+/node_modules
+
+# TS stuff 
+tsconfig.json
+tsup.config.ts
