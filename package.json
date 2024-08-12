@@ -1,7 +1,7 @@
 {
     "name": "use-blob-to-file",
     "description": "A React hook for converting Data URLs / Blob files into File objects with a preview URL for easy viewing and uploading.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
@@ -17,17 +17,17 @@
         "hook",
         "blob",
         "file",
-        "typescript"
+        "typescript",
+        "blob to file",
+        "data url to file"
     ],
     "author": "doughnut4641",
     "license": "MIT",
     "devDependencies": {
         "@types/react": "^18.3.3",
         "tsup": "^8.2.4",
-        "typescript": "^5.5.4"
+        "typescript": "^5.5.4",
+        "react": "^18.3.1"
     },
-    "dependencies": {
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1"
-    }
+    "dependencies": {}
 }
